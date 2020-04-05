@@ -4,7 +4,7 @@
 		static $client_secret;
 		static $redirect_uri;
 		static $api_url = 'https://graph.microsoft.com/v1.0';
-		static $oauth_url = 'https://login.microsoftonline.com/common/oauth2/v2.0';
+		static $oauth_url = 'https://login.partner.microsoftonline.cn/common/oauth2/v2.0';
 
 		//验证URL，浏览器访问、授权
 		static function authorize_url(){
